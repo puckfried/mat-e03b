@@ -1,4 +1,3 @@
-```md
 # Overview of HTML and CSS Commands
 
 Here you will find a continuous overview of the elements in HTML and the CSS properties we have learned so far. This overview will be supplemented with new values over the next few days.
@@ -48,4 +47,3 @@ Here you will find a continuous overview of the elements in HTML and the CSS pro
 | `font-weight`     | Defines the thickness of the font.           | `font-weight: bold;`             |
 | `font-family`     | Determines the font family.                  | `font-family: Arial, sans-serif;`|
 | `font-style`      | Sets the style of the font (e.g., italic).   | `font-style: italic;`            |
-```
