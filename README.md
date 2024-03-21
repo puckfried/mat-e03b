@@ -23,6 +23,8 @@ Here you will find a continuous overview of the HTML elements and CSS properties
    - [Sizes](#sizes)
    - [Margins and Borders](#margins-and-borders)
    - [Background](#background)
+   - [Display Property](#display-property)
+   - [Flex Properties](#flex-properties)
 3. [Useful Keyboard Shortcuts](#useful-keyboard-shortcuts-windows)
 
 <br><br><br>
@@ -118,6 +120,30 @@ So far, we have learned the following elements:
 | Property          | Description                       | Example                      |
 |-------------------|-----------------------------------|------------------------------|
 | `background-color`| Sets the background color.        | `background-color: yellow;`  |
+| `background-image` | Specifies an image to use as the background of an element.   | `background-image: url('./image.jpg');`   |
+| `background-size`  | Specifies the size of the background images.                 | `background-size: cover;`               |
+| `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         |
+
+### Display Property
+
+| Value         | Description                                                                                                       |
+|---------------|-------------------------------------------------------------------------------------------------------------------|
+| `inline`      | Displays an element as an inline element, similar to `<span>`. Height and width properties have no effect on it. |
+| `block`       | Displays an element as a block element, similar to `<div>`. It starts on a new line and takes up the full width. |
+| `inline-block`| Combines the behaviors of `inline` and `block`: it does not start on a new line but can have width and height.   |
+| `flex`        | Displays an element as a block-level flex container, facilitating the application of the flexbox layout model.   |
+
+### Flex Properties
+
+For a comprehensive understanding of Flexbox and its capabilities, consider exploring [this detailed guide on CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), which offers in-depth explanations and examples.
+
+| Property        | Description                                                                                          |
+|-----------------|------------------------------------------------------------------------------------------------------|
+| `justify-content` | Controls the alignment of items on the main axis (horizontal by default).                           |
+| `align-items`     | Controls the alignment of items on the cross axis (vertical by default).                            |
+| `gap`             | Defines the space between flex items. It applies both row gap and column gap.                       |
+| `flex-wrap`       | Specifies whether flex items are forced onto one line or can wrap onto multiple lines.              |
+
 
 
 <br><br><br>
