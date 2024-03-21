@@ -26,6 +26,7 @@ Here you will find a continuous overview of the HTML elements and CSS properties
    - [Background](#background)
    - [Display Property](#display-property)
    - [Flex Properties](#flex-properties)
+   - [Position Property](#position-property)
 3. [Useful Keyboard Shortcuts](#useful-keyboard-shortcuts-windows)
 
 <br><br><br>
@@ -161,6 +162,19 @@ For a comprehensive understanding of Flexbox and its capabilities, consider expl
 | `align-items`     | Controls the alignment of items on the cross axis (vertical by default).                            |
 | `gap`             | Defines the space between flex items. It applies both row gap and column gap.                       |
 | `flex-wrap`       | Specifies whether flex items are forced onto one line or can wrap onto multiple lines.              |
+
+
+### Position Property
+
+The CSS `position` property specifies how an element is positioned in a document. The positioning is relative to its first positioned (non-static) ancestor element. This allows for the creation of complex layouts and the precise placement of elements within a page. Below is a table outlining the values of the `position` property and their behavior:
+
+| Value      | Description                                                                                   |
+|------------|-----------------------------------------------------------------------------------------------|
+| `static`   | The default position; elements are positioned according to the normal flow of the document.   |
+| `relative` | Positioned relative to its normal position, allowing you to adjust its location using top, right, bottom, left properties. |
+| `absolute` | Removed from the normal document flow; positioned relative to its closest positioned ancestor if any, otherwise to the initial containing block. |
+| `fixed`    | Removed from the normal document flow; positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. |
+| `sticky`   | A hybrid of relative and fixed positioning. The element is treated as `relative` until it crosses a specified point, then it is treated as `fixed`. |
 
 
 
