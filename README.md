@@ -12,6 +12,9 @@ Here you will find a continuous overview of the HTML elements and CSS properties
        - [Inline Elements](#22-inline-elements-only-occupy-the-width-of-their-content)
 2. [CSS Properties](#css-properties)
    - [Text Formatting](#text-formatting)
+   - [Sizes](#sizes)
+   - [Margins and Borders](#margins-and-borders)
+   - [Background](#background)
 3. [Useful Keyboard Shortcuts](#useful-keyboard-shortcuts-windows)
 
 <br><br><br>
@@ -88,6 +91,26 @@ So far, we have learned the following elements:
 | `font-weight`     | Defines the thickness of the font.           | `font-weight: bold;`           |
 | `font-family`     | Determines the font family.                  | `font-family: Arial, sans-serif;`|
 | `font-style`      | Sets the style of the font (e.g., italic).   | `font-style: italic;`          |
+
+
+### Sizes
+| Property    | Description                                | Example            |
+|-------------|--------------------------------------------|---------------------|
+| `width`     | Sets the width of an element.              | `width: 100px;`     |
+| `height`    | Determines the height of an element.       | `height: 200px;`    |
+
+### Margins and Borders
+| Property    | Description                                    | Example                   |
+|-------------|-------------------------------------------------|--------------------------|
+| `margin`    | Defines the outer margin around an element.    | `margin: 10px;`          |
+| `padding`   | Sets the inner padding within an element.      | `padding: 20px;`         |
+| `border`    | Adds a border around the element.              | `border: 1px solid black;`|
+
+### Background
+| Property          | Description                       | Example                      |
+|-------------------|-----------------------------------|------------------------------|
+| `background-color`| Sets the background color.        | `background-color: yellow;`  |
+
 
 <br><br><br>
 ## Useful Keyboard Shortcuts (Windows)
