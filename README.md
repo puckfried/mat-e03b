@@ -18,6 +18,7 @@ Here you will find a continuous overview of the HTML elements and CSS properties
    - [Body Elements](#2-body-elements-the-visible-area-of-your-website)
        - [Block Elements](#21-block-elements-occupy-the-entire-width-of-the-screen)
        - [Inline Elements](#22-inline-elements-only-occupy-the-width-of-their-content)
+       - [Extra: Semantic HTML Elements](#23-semantic-html-elements)
 2. [CSS Properties](#css-properties)
    - [Text Formatting](#text-formatting)
    - [Sizes](#sizes)
@@ -87,7 +88,24 @@ So far, we have learned the following elements:
 | `<br>`       | Special empty element for line breaks | `This is a text<br>new line`             |
 | `<img>`      | Insert image                         | `<img src="url" alt="Image description">`|
 
+
+#### 2.3 Semantic HTML Elements
+
+Semantic HTML elements clearly describe their meaning in a human- and machine-readable way, making them essential for accessibility and SEO. These elements serve as more descriptive containers than non-semantic ones like `<div>`, offering structure and meaning to web content. They are treated as block elements by default. Below is a table outlining some common semantic elements and their purposes.
+
+| Element   | Description                                                                                      |
+|-----------|--------------------------------------------------------------------------------------------------|
+| `header`  | Represents a container for introductory content or a set of navigational links.                 |
+| `main`    | Specifies the main content of a document, unique to the document and excluding repeated content.|
+| `footer`  | Defines a footer for a document or section, containing information about the author, copyright, etc. |
+| `section` | Represents a standalone section of content that may be contained within an article or document body. |
+| `article` | Indicates a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable. |
+| `aside`   | Defines some content loosely related to the content around the `aside` element, such as sidebars, advertisements, or call-out boxes. |
+
+
+
 <br><br><br>
+
 ## CSS Properties
 **CSS** stands for ***Cascading Style Sheets*** and is used to define the appearance of HTML elements on a webpage. CSS allows various properties such as color, font, and positioning to be defined. By separating content and design, changing the appearance of the website becomes easier as only the CSS needs to be changed without editing the HTML code.
 
