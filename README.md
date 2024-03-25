@@ -6,7 +6,8 @@ Here you will find a continuous overview of the HTML elements and CSS properties
 ## Frontend, Backend -  what we are talking about?
 - **Frontend**: Refers to the part of a website or application that users interact with directly. It encompasses everything the user experiences directly: text, images, sliders, buttons, animations, etc. Frontend development involves using languages and frameworks like HTML, CSS, and JavaScript.
 <br>
-- **Backend**: Refers to the server-side of a website or application, which users do not see. It's responsible for storing and managing data, and ensuring that the frontend has what it needs to work properly. This involves databases, server management, and application logic. Backend development uses languages and frameworks such as Python, Ruby, Java, and Node.js to build the architecture that supports the frontend.
+
+- **Backend** : Refers to the server-side of a website or application, which users do not see. It's responsible for storing and managing data, and ensuring that the frontend has what it needs to work properly. This involves databases, server management, and application logic. Backend development uses languages and frameworks such as Python, Ruby, Java, and Node.js to build the architecture that supports the frontend.
 
 
 ## HTML and CSS Commands
